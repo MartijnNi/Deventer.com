@@ -5,3 +5,9 @@ $('.navTrigger').click(function () {
     $("#mainListDiv").fadeIn();
 
 });
+
+
+function zoom() {
+    var reed = document.getElementById("slogan");
+    reed.classList.add("animation");
+  }

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
 html,
 
 body {
@@ -81,6 +82,107 @@ body {
     color: #0177a9;
 }
 
+/* Alert section*/
+.customAlert {
+    display: none;
+    position: fixed;
+    max-width: 25%;
+    min-width: 250px !important;
+    min-height: 28%;
+    height: 20px;
+    left: 80%;
+    top: 71%;
+    padding: 10px;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    background: #1a66bd;
+}
+
+.popUpButton {
+    margin-top: 26px;
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    text-decoration: underline;
+}
+
+.popUpButton :hover {
+    cursor: pointer !important;
+    background-color: #1a66bd !important;
+}
+@media all and (max-width: 1300px) {
+    .customAlert .message {
+        font-size: 14px !important;
+   }
+    .customAlert input[type='button'] {
+        height: 15% !important;
+   }
+}
+.popUpMessage {
+    border: red 1px;
+    height: 70%;
+}
+
+.popUpMessage h3 {
+    font-size: 25px;
+    color: white;
+}
+
+.popUpMessage h4 {
+    padding-top: 3px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+.customAlert .message {
+    padding: 0px;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+.customAlert input[type='button'] {
+    position: absolute;
+    top: 100%;
+    left: 95%;
+    width: 25%;
+    height: 36px;
+    margin-top: -45px;
+    margin-left: -25%;
+    outline: 0;
+    border: 0;
+    border-radius: 10rem;
+    background:#052f5f;
+    color: white;
+}
+.customAlert input[type='button']:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    background: #05cd99;
+}
+.rab {
+    width: 200px;
+    height: 30px;
+    outline: 0;
+    border: 0;
+    color: white;
+    background: #039b73;
+}
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+   }
+    to {
+        opacity: 0;
+   }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+   }
+    to {
+        opacity: 1;
+   }
+}
 
 /* Home section */
 
@@ -163,19 +265,76 @@ button:hover {
 
 
 .slogandeventer {
-    position: flex;
-    float: right;
-    
-    z-index: 83;
-    border: solid red 3px;
-    width: 50vh;
+    z-index: 80;
+    width: 50%;
+    height: 80vh;
+    margin-left: 8rem;
+}
+
+
+.slogantext h1 {
+    box-shadow: 0px 1px 11px 7px rgba(0, 0, 0, 0.47);
+    text-align:left;
+    margin-top: 44vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+    background-color: rgba(17, 17, 17, 0.632);
+    border-radius: 2rem;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 600%;
+    -webkit-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
+.animation {
+    animation: zoomer 0.5s linear;
+  }
+
+@keyframes slogantext{
+    0% {
+      font-size: 300px;
+    }
+    100% {
+      font-size: 30px;
+    }
+}
+
+/*--------------------------------------------------------------------------------------
+about us part
+----------------------------------------------------------------------------------------*/
+
+.aboutSection {
+    background-color: #ffffe1;
+    height: 100vh;
+    width: 100%;
+    border: solid rgb(0, 255, 0) 2px;
+}
+
+.divider {
+background: black;
+    width: 100%;
+    height: 65px;
+}
+
+.aboutContainer {
+    height: 100vh;
+    width: 100%;
+    border: solid red 2px;
+}
+
+.aboutTextTop{
+    border: solid yellow 2px;
+    margin: auto;
     height: 100vh;
 }
 
-.homeP2 {
-    background-color: #E7E7E7;
-    height: 100vh;
-    width: 100%;
+.aboutTextTop h2{
+    margin: auto;
+    text-align: center;
+    border: solid rgb(0, 0, 255) 2px;
 }
 
 .navTrigger {

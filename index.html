@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deventer.com | Gemeente Deventer</title>
-    <link rel="icon" href="/content/Deventer-logo-zonder-tekst-transparant.png" type="image/icon type">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="icon" href="./content/Deventer-logo-zonder-tekst-transparant.png" type="image/icon type">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/scrolldownbutton.css">
 </head>
@@ -32,36 +33,52 @@
     </nav>
 
     <section class="home">
-        <div class="howtohelp">
-            <div class="howtohelp_block">
-                <h2>Hoe kunnen wij u helpen?</h2>
-                    <div class="searchblock">
-                        <input type="text" placeholder="Zoeken...">                    
-                    </div>
-                    <div class="howtohelp_tags">
-                        <button class="button button1"><a href="#">Vacaturens</a></button>
-                        <button class="button button1"><a href="#">openingstijden</a></button>
-                        <button class="button button1"><a href="#">Sollicitatieproces</a></button>
-                        <button class="button button1"><a href="#">Over gemeente Deventer</a></button>
-                        <button class="button button1"><a href="#">verhuizen</a></button>
-                        <button class="button button1"><a href="https://www.deventer.nl/paspoort-en-identiteitskaart">Paspoort/ID</a></button>
-                        <button class="button button1"><a href="https://www.deventer.nl/parkeren">Parkeren</a></button>
-                    </div>
+        <div class="customAlert">
+            <p class="message"></p>
+                <div class="popUpMessage">
+                    <h3>Collega's gezocht!</h3>
+                    <h4>Hey jij! <br>Lijkt een baan in de kunst en cultuur sector iets voor jou? Heb jij een frisse blik en het lef om je buiten de gebaande paden te begeven? Dan ben jij wat Deventer nodig heeft! Meer lezen over deze vacature?  </h4>
+                </div>
+            <button type="button" class="popUpButton"><a href="#">ga naar vacaturens</a></button>
+            <input type="button" class="confirmButton" value="Sluiten">
+          </div>
+            <div class="howtohelp">
+                <div class="howtohelp_block">
+                    <h2>Hoe kunnen wij u helpen?</h2>
+                        <div class="searchblock">
+                            <input type="text" placeholder="Zoeken...">                    
+                        </div>
+                        <div class="howtohelp_tags">
+                            <button class="button button1"><a href="#">Vacaturens</a></button>
+                            <button class="button button1"><a href="#">openingstijden</a></button>
+                            <button class="button button1"><a href="#">Sollicitatieproces</a></button>
+                            <button class="button button1"><a href="#">Over gemeente Deventer</a></button>
+                            <button class="button button1"><a href="#">verhuizen</a></button>
+                            <button class="button button1"><a href="https://www.deventer.nl/paspoort-en-identiteitskaart">Paspoort/ID</a></button>
+                            <button class="button button1"><a href="https://www.deventer.nl/parkeren">Parkeren</a></button>
+                        </div>
+               </div>
             </div>
-        </div>
-        <div class="slogandeventer">
-            <h1>Deventer een stad om van te houden</h1>
-        </div>
-            <a href="#" class="scroll-down" address="true"></a>
+            <div class="slogandeventer">
+                <div class="slogantext" onload="zoom()">
+                    <h1 id="slogan">Deventer is een stad om van te houden.</h1>
+                </div>
+            </div>
+                <a href="#" class="scroll-down" address="true"></a>
     </section>
 
-    <section class="homeP2">
+    <section class="aboutSection">
+        <div class="aboutTextTop">
+            <div class="divider"></div>
+            <h2>Over de stad Deventer</h2>
+        </div>
     </section>
 
 <!-- Jquery needed -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="/javascript/scripts.js"></script>
     <script src="/javascript/scrolldownbutton.js"></script>
+    <script src="/javascript/popupalert.js"></script>
 
 <!-- Function used to shrink nav bar removing paddings and adding black background -->
     <script>
