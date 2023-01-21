@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="#">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deventer.com | Gemeente Deventer</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="icon" href="./content/Deventer-logo-zonder-tekst-transparant.png" type="image/icon type">
+    <link rel="stylesheet" href="/style/nav.css">
+    <link rel="stylesheet" href="/style/vacatures.css">
+    <link rel="stylesheet" href="/style/scrolldownbutton.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <img class="trans-logo" src="/content/Deventer-logo-zonder-tekst-transparant.png" alt="">
+                <a href="/index.html">Gemeente Deventer</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="#">Over ons</a></li>
+                    <li><a href="#">Vacature</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="vacaturen1">   
+        <div class="vacaturenTitel">
+            <h1>Werken voor Devener!</h1>
+        </div>
+        <div class="section-heading">
+            <h2>Aangeboden vacature</h2>
+        </div>        
+        <a href="#" class="scroll-down" address="true"></a>
+    </section>
+
+
+    <section class="vacaturen2">
+        <div class="vacaturenbpage">
+            <h3>Beleidsadviseur Kunst, Cultuur en Erfgoed</h3>
+            <div class="kop">
+                <a class="kopje">
+                    Je denkt vanuit onze cultuurvisie mee over de toekomst van de culturele sector. Dit doe je door de samenwerking in Deventer en omstreken te verbeteren en vernieuwing op gang te brengen. De komende jaren geven we vorm aan nieuwe meerjarige afspraken en zetten we in op de verbinding tussen cultuur en andere domeinen in de gemeente, zoals economie, gebiedsontwikkeling en openbare ruimte. We zoeken een ervaren beleidsadviseur die samen met collega’s hiermee aan de slag gaat. 
+                </a>
+                <h2>Jouw werk</h2>
+                <a class="kopje">Je maakt afspraken om de samenwerking tussen culturele instellingen en partners, zowel producenten, amateurs, educatie als vrijwillige programmeurs in Deventer te versterken. 
+                    Als aanspreekpunt van een of meerdere instellingen ben je verantwoordelijk voor de realisatie van jouw projecten en producten. Je toetst plannen en resultaten aan de verstrekte subsidies en monitort de financiën van de instellingen. Daarnaast adviseer je het college van B&W, de directie en de programmamanager over de haalbaarheid en voortgang van de plannen en over nieuwe ontwikkelingen. Daarbij zoek je ook de aansluiting met zowel lokaal, regionaal als landelijk beleid. Cultuur staat niet op zichzelf. Het raakt ook andere terreinen, zoals vastgoed en ruimtelijke ordening. Jij zet je actief in zodat culturele waarden hier onderdeel van worden.</a>
+                <h2>Wat zoekt Deventer in jou?</h2>
+                <a class="kopje">Wij vinden het belangrijk dat je goed kunt samenwerken en afspraken kan maken met je partners en culturele instellingen. Je kunt goed plannen en adviseren. Je hebt een sterke persoonlijkheid en je kunt je standpunten goed beargumenteren. Netwerken gaat je goed af, je bent toegankelijk en benaderbaar. Jij weet complexe vraagstukken vanuit een brede visie te vertalen naar realiseerbare doelen. Je hebt affiniteit en een goed gevoel voor de politiek bestuurlijke en maatschappelijke context. Je bent kritisch, hebt een frisse blik en het lef om je buiten de gebaande paden te begeven. 
+                    Jij leeft voor contact met mensen, je haalt energie uit grote projecten en jij hebt overzicht en stuurt waar nodig is. Jij wordt de koppeling tussen jou werk en de doelen van de gemeente. 
+                    Jij werkt met en voor de stad. Een stad die altijd in beweging is en een stad die groeit! Daarom zoeken wij jou. Interesse? Check dan de vacature!
+                </a>
+                <h2>Teams</h2>
+                <a class="kopje">
+                    Een hecht, gezellig en hard werkend team vinden wij belangrijk in gemeente Deventer!
+Ons team beleid bestaat uit ongeveer 100 medewerkers: beleidsadviseurs, beleidsondersteuners en programmamanagers. Samen proberen wij elke dag Deventer te ontwikkelen op verschillende terreinen, waaronder Meedoen, Werk en Inkomen, Jeugd & Onderwijs, Economie, Kunst, Cultuur en Erfgoed, Ruimtelijke Ontwikkeling, Milieu en Duurzaamheid, Energietransitie en Veiligheid. Het delen van kennis, inzichten en ervaringen is een leuke manier van blijven leren en ontwikkelen in onze teams.
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+<!-- Jquery needed -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="/javascript/scripts.js"></script>
+<script src="/javascript/scrolldownbuttonvac.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+<script>
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+            console.log("OK");
+        } else {
+            $('.nav').removeClass('affix');
+        }
+    });
+</script>
+</body>
+</html>
