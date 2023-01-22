@@ -29,6 +29,7 @@ body {
 }
 
 .vacaturenTitel{
+    z-index: 80;
     padding: 1%;
     border:  red 2px;
     height: 15%;
@@ -42,8 +43,9 @@ body {
     left: 0;
     right: 0;
     margin-top: 24%;
-    margin-left: auto;
+    margin-left: 12%;
     margin-right: auto;
+    padding-bottom:9% ;
 }
 
 .vacaturenTitel h1{
@@ -92,18 +94,44 @@ body {
     border: black 2px solid;
     background-color: rgb(255, 241, 203);
 }
+.containerkop {
+    height: 90%;
+    overflow: hidden;
+}
 
 .kop {    
     margin-top: 1%;
     padding-right: 3%;
+    float: left;
     border-right: solid rgb(0, 0, 0) 1px;
     width: 70%;
     padding-left:1rem ;
 }
 
-.kopje{
+.kopjetekst{
     font-size: 20px;
+    display: flex;
+}
 
+.kopje-rechts {
+    height: 80%;
+    width: 25%;
+    float:left;
+    margin-left: 2%;
+}
+
+.underline {
+    border-bottom: 2px solid rgb(58, 43, 43);
+}
+
+.bullets{
+    margin-top: 6%;
+    margin-left:10% ;
+    font-size: 20px;
+}
+
+.ytvideo {
+    margin-top: 17%;
 }
 
 .vacaturenbpage h3{
