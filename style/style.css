@@ -324,7 +324,7 @@ about us part
 .aboutSection {
     width: 100%;
     height: 100vh;
-    background-image: url(content/53032344_989693727894496_245942007896211456_n.jpg);
+    background-image: url(../content/53032344_989693727894496_245942007896211456_n.jpg);
     background-position: center top;
 	background-size:cover;
     display: flex;
