@@ -43,7 +43,7 @@ body {
     left: 0;
     right: 0;
     margin-top: 24%;
-    margin-left: 12%;
+    margin-left: 10%;
     margin-right: auto;
     padding-bottom:9% ;
 }
@@ -76,7 +76,7 @@ body {
 
 .vacaturen2 {
     width: 100%;
-    height: 150vh;
+    height: auto;
     background-color: #e6c286;
     box-shadow: 0px 1px 11px 7px rgba(0, 0, 0, 0.47);
     background-position: center top;
@@ -88,6 +88,7 @@ body {
     margin-top: 13%;
     margin-left: 6%;
     margin-right: 6%;
+    margin-bottom: 10%;
     z-index: 10;
     width: 90%;
     height: 80%;
@@ -111,6 +112,7 @@ body {
 .kopjetekst{
     font-size: 20px;
     display: flex;
+    padding-bottom: 3%;
 }
 
 .kopje-rechts {
