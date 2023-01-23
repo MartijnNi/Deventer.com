@@ -144,3 +144,20 @@ body {
     padding-top: 3rem;
 }
 
+button{
+    background-color: blue;
+    border-radius: 10rem;
+    width: 200px;
+    padding: 1rem;
+    margin-top: 5%;
+    float: right;
+}
+
+button:hover {
+    background-color: rgb(0, 0, 88);
+}
+
+button a{
+    color: white;
+    font-size: 20px;
+}
