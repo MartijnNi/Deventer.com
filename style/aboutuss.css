@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
 
 *{
     z-index: 99;
@@ -19,7 +20,7 @@ body {
 .page1container {
     width: 100%;
     height: 100vh;
-    background-image: url(../content/Deventer-3.jpg);
+    background-image: url(../content/Weekendje-Deventer-tips.jpg);
     background-position: center top;
 	background-size:cover;
     display: flex;
@@ -37,7 +38,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    margin-top: 17%;
+    margin-top: 30%;
     margin-left: auto;
     margin-right: auto;
     padding-bottom:9% ;
@@ -53,10 +54,92 @@ body {
 
 /*page2*/
 
-.page2container{
-    width: 100%;
+.page2container {
     height: 100vh;
-    background-color: rgb(56, 56, 56);
+    background: rgb(30, 30, 30) ;
+    color: white;
+    display: flex; 
+    padding-left: 1rem;
+    align-items: center;
+    justify-content: space-around; 
+    border: 3px red;
+}
+
+.page2container img{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem ;
+    padding-bottom: 1rem;
+}
+.intro{
+    z-index: 50;
+    height: 70vh;
+}
+
+.intro h2{
+    font-size: 45px;
+    border-bottom: solid white 2px;
+    width: 75%;
+    margin-bottom: 5%;
+    padding-bottom: 0%;
+    margin-left: 3%;
+    margin-top:3%;
+}
+
+.intro p {
+    font-family: 'PT Serif', serif;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 3%;
+}
+
+.page2container img {
+    z-index: 40;
+    height: 90%;
+}
+
+/*page3*/
+
+.page3container {
+    height: 100vh;
+    background: rgb(30, 30, 30) ;
+    color: white;
+    display: flex; 
+    padding-left: 1rem;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.intro3{
+    padding-left: 3rem;
+    z-index: 50;
+    height: 70vh;
+}
+
+.intro3 h2{
+    float: left;
+    font-size: 45px;
+    border-bottom: solid white 2px;
+    width: 75%;
+    margin-bottom: 5%;
+    padding-bottom: 0%;
+    margin-left: 3%;
+    margin-top:3%;
+}
+
+.intro3 p {
+    font-family: 'PT Serif', serif;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 3%;
+}
+
+.page3container img {
+    z-index: 40;
+    width: 50%;
+    height: 70%;
     background-position: center top;
 	background-size:cover;
     display: flex;

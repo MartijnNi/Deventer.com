@@ -80,15 +80,14 @@ body {
 }
 .containerkop {
     height: 90%;
-    overflow: hidden;
+    width: 100%;
 }
 
 .kop {    
     margin-top: 1%;
     padding-right: 3%;
     float: left;
-    border-right: solid rgb(0, 0, 0) 1px;
-    width: 70%;
+    width: 90%;
     padding-left:1rem ;
 }
 
@@ -98,26 +97,13 @@ body {
     padding-bottom: 3%;
 }
 
-.kopje-rechts {
-    height: 80%;
-    width: 25%;
-    float:left;
-    margin-left: 2%;
+
+
+.kop img {
+    float: right;
+
 }
 
-.underline {
-    border-bottom: 2px solid rgb(58, 43, 43);
-}
-
-.bullets{
-    margin-top: 6%;
-    margin-left:10% ;
-    font-size: 20px;
-}
-
-.ytvideo {
-    margin-top: 17%;
-}
 
 .vacaturenbpage h3{
     font-size: 40px;
@@ -127,15 +113,6 @@ body {
 .vacaturenbpage h2{
     font-size: 30px;
     padding-top: 3rem;
-}
-
-button{
-    background-color: blue;
-    border-radius: 10rem;
-    width: 200px;
-    padding: 1rem;
-    margin-top: 5%;
-    float: right;
 }
 
 button:hover {
