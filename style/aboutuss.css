@@ -20,14 +20,14 @@ body {
 .page1container {
     width: 100%;
     height: 100vh;
-    background-image: url(../content/Weekendje-Deventer-tips.jpg);
+    background-image: url(../content/Afbeelding\ van\ WhatsApp\ op\ 2023-01-24\ om\ 16.14.30.jpg);
     background-position: center top;
 	background-size:cover;
     display: flex;
 }
 
 .overonsTitel{
-    z-index: 500;
+    z-index: 100;
     padding: 1%;
     border:  red 2px;
     height: 15%;
@@ -45,11 +45,12 @@ body {
 }
 
 .overonsTitel h1{
+    z-index: 100;
     border-bottom:2px white solid ;
     width: 50%;
     font-size: 150px;
     font-family: 'PT Serif', serif;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 }
 
 /*page2*/
@@ -62,7 +63,7 @@ body {
     padding-left: 1rem;
     align-items: center;
     justify-content: space-around; 
-    border: 3px red;
+    border-bottom: 1px solid  white;
 }
 
 .page2container img{
@@ -87,7 +88,7 @@ body {
 }
 
 .intro p {
-    font-family: 'PT Serif', serif;
+    font-family: "Quicksand", sans-serif;
     letter-spacing: 0.5px;
     font-size: 20px;
     text-align: left;
