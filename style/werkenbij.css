@@ -59,6 +59,7 @@ body {
 .vacaturen2 {
     width: 100%;
     height: auto;
+    background-image: url(../content/ian-dooley-DJ7bWa-Gwks-unsplash.jpg);
     background-color: #e6c286;
     box-shadow: 0px 1px 11px 7px rgba(0, 0, 0, 0.47);
     background-position: center top;
@@ -73,10 +74,10 @@ body {
     margin-right: 6%;
     margin-bottom: 10%;
     z-index: 10;
-    width: 90%;
-    height: 80%;
+    width: 60%;
+    height: 90%;
     border: black 2px solid;
-    background-color: rgb(255, 241, 203);
+    background-color: rgba(176, 148, 116, 0.945);
 }
 .containerkop {
     height: 90%;
